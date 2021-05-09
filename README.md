@@ -23,10 +23,11 @@ ruby autoproj_install --gemfile=autoproj.gemfile
 ```
 
 ### Set your configuration
-To make life easier, this buildconf has preseted configurations located on `config.yml`, so on your workspace root folder, create a .autoproj file if does not exists and:
+To make life easier, this buildconf has preseted configurations located on `config.yml`, so on your workspace root folder, create a .autoproj file if does not exists and !(MUST BE DONE BEFORE BOOTSTRAP):
 
 ```bash
-wget -O .autoproj/config.yml
+mkdir -p .autoproj
+wget https://raw.githubusercontent.com/orise-robotics/diffbot2-buildconf/first-version/config.yml -O .autoproj/config.yml
 ```
 ### Run autoproj
 

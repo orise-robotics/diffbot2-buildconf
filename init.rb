@@ -14,3 +14,4 @@
 
 # Write in this file customization code that will get executed before 
 # autoproj is loaded.
+require 'autoproj/git_server_configuration'

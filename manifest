@@ -14,8 +14,8 @@
 
 package_sets:
    - github: orise-robotics/orise.projects-package_set
-   - github: orise-robotics/orise.tools-package_set
 
 layout:
-  - diffbot2_simulation
   - diffbot2_robot
+  - diffbot2_simulation
+  - xacro_live
